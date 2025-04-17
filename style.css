@@ -54,7 +54,7 @@ button {
     font-weight: 900;
     border: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 8px 32px;
 }
 
 .hero {
@@ -67,18 +67,22 @@ button {
     transform: translateY(150px);
 }
 
+.info-section {
+    background-color: #F9FAF8;
+}
 .info-header{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
-    padding: 32px 0;
+    margin: 32px 0;
 }
 .info-container {
     display: flex;
     justify-content: center;
     gap: 64px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -93,16 +97,51 @@ button {
     width: 128px;
     margin-bottom: 16px;
 }
-.text {
+.info-text {
     font-size: 18px;
     color: #1F2937;    
 }
 
-/* .quote-section {
+.quote-section {
     background-color: #E5E7EB;
+    padding: 130px 560px 100px 560px;
 }
 .quote-text{
     font-size: 36px;
     font-style: italic;
-    color:#1F2937
-} */
+    font-weight: 300;
+    color:#1F2937;
+}
+.quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.cta-section {
+    background-color: #F9FAF8;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 75px 150px;
+    margin: 125px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.cta-header {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta-text {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.cta-button button {
+    border: 2px solid #F9FAF8;
+}
